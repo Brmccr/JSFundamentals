@@ -1,0 +1,33 @@
+table{
+    background-color: lightskyblue;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: black;
+    table-layout: center;
+    font-size: 30px
+    }
+
+td, th {
+    border-style: solid;
+    border-color: black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.title {
+    font-style: italic
+}
+
+body {
+    text-align: center;
+}
+
+html, body {
+    width: 100%;
+}
+table {
+    margin: 0 auto;
+}
