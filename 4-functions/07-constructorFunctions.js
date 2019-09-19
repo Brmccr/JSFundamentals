@@ -24,7 +24,7 @@ function Person(name, age, canVote) {
 }
 //             (7)   (8)
 let person4 = new Person('Brad', 26, true);
-
+console.log(person4)
 
 /*
     1.javascript keyword
@@ -35,5 +35,5 @@ let person4 = new Person('Brad', 26, true);
     5. this will be the key of the new object we create. This is NOT referring to the parameter
     6. this IS referring to the parameter we pass through our constuctor function
     7 & 8 - the new keyword is calling our person constructor function - creating new person with values using an argument
-    
+
 */

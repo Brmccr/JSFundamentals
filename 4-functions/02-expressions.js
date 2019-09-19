@@ -7,6 +7,8 @@ let hey = function hi(){
     console.log('HI');
 }
 
+console.log(hey)
+
 
 
 /*
