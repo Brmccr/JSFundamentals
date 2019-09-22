@@ -1,6 +1,6 @@
-// function brad(ticket) {
-//     console.log(`I exchanged my ticket for a ${ticket}`);
-// }
+function brad(ticket) {
+    console.log(`I exchanged my ticket for a ${ticket}`);
+}
 
 // brad('cheeze pizza');
 

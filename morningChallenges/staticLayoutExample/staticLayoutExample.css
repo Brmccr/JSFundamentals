@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* *paralax */
+
+.paralax {
+    background-image: url('https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=719&q=80');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    scroll-behavior: smooth;
+
+}
+
+#box {
+    position: relative;
+    left: 0%;
+    top: 50%;
+    width:100%;    
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+}
+
+#border {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px; 
+    font-size: 18px;
+    letter-spacing: 8px
+}
+.section {
+    padding-top: 3em;
+    width: 100vw;
+    background-color: #FBFBFB;
+    padding-bottom: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.header {
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #383B3F;
+
+}
+
+div.header {
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color:#6B7F92;
+    list-style-type: none;
+
+}
+
+.blurb{
+    font-family: 'Economica', sans-serif;
+    font-size: 15px;
+    color : #6B7F92;
+    list-style-type: none;
+}
+
+.backgroundOne {
+background-image: url("https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=719&q=80");
+height: 1000px
+}
+
+.section span{
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+}
+
+/*
+lists styling
+*/
+
+ul {
+    list-style-type: none;
+    color: #9D9D9D;
+    /* opacity: 70; */
+}

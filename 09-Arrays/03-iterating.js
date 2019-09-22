@@ -7,7 +7,7 @@
 
 */
 
-let food = ['Pecan Pie', 'Shrimp', 'Quesadilla', 'Cheese Cake', 'Hotdog'];
+let food = morpheus;
 
 for(let i = 0; i < food.length; i++){
     console.log(food[i])

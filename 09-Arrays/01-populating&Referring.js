@@ -15,3 +15,6 @@ let students = ['Tony', 'Marshall', 'Ryan', 'Ray', 24, true ['Rhys', 'Iesha', 'A
 let students = ['Tony', 'Marshall', 'Ryan', 'Ray', 24, true, ['Rhys', 'Iesha', 'Amira']];
 console.log(`hello`, students[6][2] + `you look nice today`);
 
+let list = ['yes', false, 1900,['flag', 57, true], 'rocket'];
+
+console.log(list[4][2])
